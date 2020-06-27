@@ -14,6 +14,7 @@
 		958435E524A5DFC400BAFD43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958435E424A5DFC400BAFD43 /* Assets.xcassets */; };
 		958435E824A5DFC400BAFD43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958435E624A5DFC400BAFD43 /* LaunchScreen.storyboard */; };
 		958435F024A5E89500BAFD43 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958435EF24A5E89500BAFD43 /* InputViewController.swift */; };
+		9588E2D824A5EBC1000D99DC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9588E2D724A5EBC1000D99DC /* Task.swift */; };
 		C413201487F95A613FED3B75 /* Pods_taskapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BF6671EADD97B1E2A42152 /* Pods_taskapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		958435E724A5DFC400BAFD43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		958435E924A5DFC400BAFD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		958435EF24A5E89500BAFD43 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		9588E2D724A5EBC1000D99DC /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		A5BF6671EADD97B1E2A42152 /* Pods_taskapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				958435DB24A5DFC300BAFD43 /* AppDelegate.swift */,
+				9588E2D724A5EBC1000D99DC /* Task.swift */,
 				958435DD24A5DFC300BAFD43 /* SceneDelegate.swift */,
 				958435DF24A5DFC300BAFD43 /* ViewController.swift */,
 				958435EF24A5E89500BAFD43 /* InputViewController.swift */,
@@ -211,6 +214,7 @@
 			files = (
 				958435E024A5DFC300BAFD43 /* ViewController.swift in Sources */,
 				958435DC24A5DFC300BAFD43 /* AppDelegate.swift in Sources */,
+				9588E2D824A5EBC1000D99DC /* Task.swift in Sources */,
 				958435DE24A5DFC300BAFD43 /* SceneDelegate.swift in Sources */,
 				958435F024A5E89500BAFD43 /* InputViewController.swift in Sources */,
 			);
